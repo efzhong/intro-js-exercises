@@ -1,6 +1,4 @@
 /* global describe, beforeAll, it, page, expect */
-import 'expect-puppeteer';
-
 beforeAll(async () => {
   await page.goto('http://localhost:8080/exercises/part2-basic-functions/');
 });
